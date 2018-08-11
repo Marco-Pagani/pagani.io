@@ -4,18 +4,19 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 // Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$blue: #243b4f;
+$blue-dark: #071826;
+$orange: #f57c00;
+$red: #d84315;
+$beige-light: #f2e6d9;
+$beige-lighter: #f2f2f0;
 
 // Update Bulma's global variables
 $family-sans-serif: "Montserrat", sans-serif;
-$grey-dark: $brown;
+$grey-dark: $blue;
 $grey-light: $beige-light;
-$primary: $pink;
-$link: $pink;
+$primary: $orange;
+$link: $red;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
@@ -24,10 +25,14 @@ $body-background-color: $beige-lighter;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+$card-header-background-color: $orange;
+
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/form.sass";
