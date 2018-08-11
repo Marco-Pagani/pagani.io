@@ -17,15 +17,16 @@ $grey-dark: $blue;
 $grey-light: $beige-light;
 $primary: $orange;
 $link: $red;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
 
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
-$control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 $card-header-background-color: $orange;
+
+.is-splash {
+  background: url('../images/assets/heroimage.jpg') center / cover;
+}
 
 
 // Import only what you need from Bulma
@@ -33,6 +34,7 @@ $card-header-background-color: $orange;
 @import '../node_modules/bulma/sass/base/_all';
 @import '../node_modules/bulma/sass/grid/_all';
 @import '../node_modules/bulma/sass/components/card';
+@import '../node_modules/bulma/sass/components/navbar';
 @import '../node_modules/bulma/sass/elements/button';
 @import '../node_modules/bulma/sass/elements/container';
 @import '../node_modules/bulma/sass/elements/form';
