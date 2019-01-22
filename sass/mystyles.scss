@@ -19,10 +19,10 @@ $primary: $orange;
 $link: $red;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
-$input-border-color: transparent;
-$input-shadow: none;
+$body-background-color: $blue;
 $card-header-background-color: $orange;
+$navbar-padding-vertical: 3rem;
+$navbar-height: 4rem;
 
 .is-splash {
   background: url('../images/assets/heroimage.jpg') center / cover;
