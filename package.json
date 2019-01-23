@@ -1,30 +1,41 @@
 {
-  "name": "pagani.io",
+  "name": "marco-pagani-site",
   "version": "1.0.0",
   "description": "My personal portfolio website",
   "main": "sass/mystyles.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-build": "node-sass _sass/main.scss css/main.css",
+    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "deploy": "npm run css-deploy && npm run js-build",
+    "js-build": "babel _javascript --out-dir lib",
+    "js-watch": "npm run js-build -- --watch",
+    "start": "npm-run-all --parallel css-watch js-watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Marco-Pagani/Marco-Pagani.github.io.git"
   },
   "keywords": [
-    "website"
+    "website",
+	"marco",
+	"pagani"
   ],
-  "author": "Marco Pagani",
+  "author": "Marco Pagani <marco.pagani@ufl.edu> (https://pagani.io)",
+  "liscence": "MIT",
   "bugs": {
     "url": "https://github.com/Marco-Pagani/Marco-Pagani.github.io.git/issues"
   },
   "homepage": "https://github.com/Marco-Pagani/Marco-Pagani.github.io.git#readme",
   "devDependencies": {
-    "bulma": "^0.7.1",
-    "node-sass": "^4.9.3"
-  },
-  "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "autoprefixer": "^7.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "bulma": "^0.6.0",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.1.1",
+    "npm-run-all": "^4.1.3"
   }
 }
