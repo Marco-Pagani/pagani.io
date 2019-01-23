@@ -1,23 +1,23 @@
 {
   "name": "pagani.io",
   "version": "1.0.0",
-  "description": "My development repo for a personal website",
+  "description": "My personal portfolio website",
   "main": "sass/mystyles.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marco-Pagani/pagani.io.git"
+    "url": "git+https://github.com/Marco-Pagani/Marco-Pagani.github.io.git"
   },
   "keywords": [
     "website"
   ],
   "author": "Marco Pagani",
   "bugs": {
-    "url": "https://github.com/Marco-Pagani/pagani.io/issues"
+    "url": "https://github.com/Marco-Pagani/Marco-Pagani.github.io.git/issues"
   },
-  "homepage": "https://github.com/Marco-Pagani/pagani.io#readme",
+  "homepage": "https://github.com/Marco-Pagani/Marco-Pagani.github.io.git#readme",
   "devDependencies": {
     "bulma": "^0.7.1",
     "node-sass": "^4.9.3"

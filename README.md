@@ -1,2 +1,2 @@
 # pagani.io
-This is my personal website, where I will host my portfolio of artwork, photography, and coding projects. I am trying to code it from scratch, and as my experience with web technologies is limited, this will be a long process
+A personal site to direct people to my work, both in development as well as design. It will be a single page site with a brief overview of my skills and interests, as well as links to relevant pages (including right here!).
