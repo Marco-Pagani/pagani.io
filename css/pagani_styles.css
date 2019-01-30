@@ -10,9 +10,13 @@ html {
   max-height: 4rem;
 }
 
+.title {
+  font-family: "Montserrat", sans-serif;
+}
+
 .blinking-cursor {
     font-weight: 100;
-    font-size: 30px;
+    font-size: 3rem;
     color: #2E3D48;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
