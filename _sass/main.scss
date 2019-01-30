@@ -4,22 +4,38 @@
 
 //Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
-
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 //Set your own initial variables
-$blue: #06bcef;
-$pink: #ff8080;
-$pink-invert: #fff;
+$acqua: #25736B;
+$acqua-light: #53BFB4;
+$acqua-complement: #BF4f27;
+$beige-lighter: #EFF0EB;
+$white: #f2f2f3;
 
+$grey-darker: hsl(0, 0%, 21%);
 
+$family-sans-serif: "Lato", "Roboto", sans-serif;
+//$size-1: 5rem;
 
 //Set the derived variables
-$primary: $pink;
-$primary-invert: $pink-invert;
+$primary: $acqua-complement;
+$primary-invert: $white;
 
-$navbar-height: 4rem;
-$navbar-item-img-max-height: 65px;
+$dark: $grey-darker;
 
+
+
+$navbar-height: 3.5rem;
+$navbar-item-img-max-height: 60px;
+$navbar-background-color: transparent;
+
+$body-background-color: $beige-lighter;
+
+$tabs-link-color: white;
+$tabs-link-active-color: white;
+$tabs-boxed-link-active-background-color: $body-background-color;
+$tabs-boxed-link-hover-background-color: $body-background-color;
 
 //Import the rest of Bulma
 

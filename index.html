@@ -6,11 +6,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124487973-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124487973-1');
-</script>
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-124487973-1');
+  </script>
 
 
   <meta charset="utf-8">
@@ -36,25 +35,25 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/pagani_styles.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script async src="js/app.js"></script>
 </head>
 
-<body has-navbar-fixed-top>
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top " id="coloredNav" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item logo" href="#home">
         <img src="assets\logo\transparent.png">
       </a>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="myNavbar">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="myNavbar" class="navbar-menu">
       <div class="navbar-start">
       </div>
 
@@ -74,7 +73,7 @@
             <a class="button is-primary is-outlined" href="mailto:marco.pagani@ufl.edu">
               <strong>Contact Me!</strong>
             </a>
-            
+
           </div>
         </div>
       </div>
@@ -84,51 +83,87 @@
   <section class="hero is-fullheight has-hero-image" id="home">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">
+        <h1 class="title is-size-1">
           Hi, I'm Marco<span class="blinking-cursor">|</span>
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle is-size-3">
           I'm a developer and a designer.
         </h2>
         <a href=#skills class="button is-primary is-rounded is-medium">Check me out</a>
       </div>
     </div>
+    <div class="hero-foot">
+      <div class="tabs is-medium is-right ">
+        <div class="container ">
+          <ul>
+            <li class="is-active"><a><b><u>EN</u></b></a></li>
+            <li><a href="it.html">IT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
-  <section class="section" id="skills">
-    <h3 class="title is-3 is-spaced">
-      So what do I <em>do</em> exactly?
-    </h3>
-    <span class="tag is-warning">Work in Progress!!</span>
-    <p>
-      I'm studying <span class="tag is-primary">Digital Arts and Sciences [BS]</span> and 
-      <span class="tag is-primary">Computer Science [MS]</span> at the University of Florida. I have a
-    passion for the design of technology, and making computers better for human beings.
-  </p>
+  <section class="section has-text-centered" id="skills">
+    <div class="columns is-centered">
+      <div class="column is-three-fifths">
+        <h3 class="title is-size-3 is-spaced">
+          I enjoy designing for human beings.
+        </h3>
+        <p class="is-size-5">
+          I have a passion for the design of technology, bringing a creative perspective to development, and
+          a technical approach to design. My goal is to create new things with these two approaches to computers.
+        </p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-one-quarter">
+        Development
+      </div>
+      <div class="column is-one-quarter">
+        Design
+      </div>
+      <div class="column is-one-quarter">
+        Photography
+      </div>
+    </div>
+
   </section>
-  <section class="section" id="work">
-    <h3 class="title is-3 is-spaced">
-      My Work
-    </h3>
-    <span class="tag is-warning">Work in Progress!!</span>
+  <section class="section has-text-centered" id="work">
+    <div class="columns is-centered">
+      <div class="column is-three-fifths">
+        <h3 class="title is-3 is-spaced">
+          My Work
+        </h3>
+        <span class="tag is-warning">Work in Progress!!</span>
+      </div>
+    </div>
   </section>
-  <section class="section" id="about">
-    <div class="card" style="max-width: 1024px;">
-        <div class="card-content">
+  <section class="section has-text-centered has-background-dark" id="about">
+    <div class="columns is-centered">
+      <div class="column is-three-fifths">
+        <div class="card is-centered">
+          <div class="card-content is-centered">
             <h3 class="title is-3 is-spaced">
-                About Me
-              </h3>
-              <span class="tag is-warning">Work in Progress!!</span>
-              <p>
-              My name is Marco Pagani, I'm a Miami native who's been playing with computers for 20 years. 
-              When I'm not working on design or programming, I'm probably editing photos, playing video games with my friends, 
-              or obsessing over expensive pens. My hope is that this website serve as an example of my programming and design skills, 
+              About Me
+            </h3>
+            <figure class="image container is-128x128">
+              <img class="is-rounded" src="assets\images\headshot.jpg">
+            </figure>
+            <p>
+              My name is Marco Pagani, I'm a Miami native who's been playing with computers for 20 years.
+              When I'm not working on design or programming, I'm probably editing photos, playing video games with my
+              friends,
+              or obsessing over expensive pens. My hope is that this website serve as an example of my programming
+              and
+              design skills,
               while being a place to host some of my more artistic work at the same time.
             </p>
             <p>If you want to work with me, hire me, or just chat, get in touch!</p>
-        </div>
+          </div>
 
+        </div>
+      </div>
     </div>
-    
   </section>
   <footer class="footer">
     <div class="content has-text-centered has-text-grey ">
@@ -137,13 +172,11 @@
         It was made using <a href="https://bulma.io">Bulma</a>.<br>
         The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a> (thank you
         internet &lt3)<br>
-        <!--<a href="it.html">italiano? clicca qui!</a>-->
       </p>
     </div>
   </footer>
 
 
-  <script src="js/app.js"></script>
 </body>
 
 </html>

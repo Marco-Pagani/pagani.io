@@ -23,3 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+
+window.onscroll = function() {
+  var nav = document.getElementById('coloredNav');
+  if ( window.pageYOffset > 50 ) {
+    nav.classList.add("is-white");
+    nav.classList.remove("is-transparent");
+  } else {
+    nav.classList.remove("is-white");
+    nav.classList.add("is-transparent");
+
+  }
+}
