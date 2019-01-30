@@ -2,18 +2,18 @@
 
 // Customization
 
-// 1. Import the initial variables
+//Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
 
-// 2. Set your own initial variables
+//Set your own initial variables
 $blue: #06bcef;
 $pink: #ff8080;
 $pink-invert: #fff;
 
 
 
-// 3. Set the derived variables
+//Set the derived variables
 $primary: $pink;
 $primary-invert: $pink-invert;
 
@@ -21,7 +21,11 @@ $navbar-height: 4rem;
 $navbar-item-img-max-height: 65px;
 
 
-// 4. Import the rest of Bulma
+//Import the rest of Bulma
+
+//TODO: import only the components needed for the final site
 @import "../node_modules/bulma/bulma";
+
+@import "../css/pagani_styles.css";
 
 
