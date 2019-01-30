@@ -5,6 +5,7 @@
 //Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 //Set your own initial variables
 $acqua: #25736B;
@@ -15,13 +16,14 @@ $white: #f2f2f3;
 
 $grey-darker: hsl(0, 0%, 21%);
 
-$family-sans-serif: "Lato", "Roboto", sans-serif;
+$family-sans-serif: "Montserrat", "Roboto", sans-serif;
+$family-sedondary: "Roboto", sans-serif;
 //$size-1: 5rem;
 
 //Set the derived variables
 $primary: $acqua-complement;
 $primary-invert: $white;
-
+$info: $acqua-light;
 $dark: $grey-darker;
 
 

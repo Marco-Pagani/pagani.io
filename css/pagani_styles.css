@@ -10,6 +10,10 @@ html {
   max-height: 4rem;
 }
 
+.title {
+  font-family: "Montserrat", sans-serif;
+}
+
 .blinking-cursor {
     font-weight: 100;
     font-size: 3rem;
