@@ -6,6 +6,10 @@ html {
     background: url('../assets/images/heroimage2560.png')center center; background-size:cover; 
 }
 
+.has-pattern {
+  background: url('../assets/prism.png');
+}
+
 .navbar-item {
   max-height: 4rem;
 }
@@ -17,7 +21,7 @@ html {
 .blinking-cursor {
     font-weight: 100;
     font-size: 3rem;
-    color: #2E3D48;
+    color: #f2f2f3;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
     -ms-animation: 1s blink step-end infinite;
@@ -30,7 +34,7 @@ html {
       color: transparent;
     }
     50% {
-      color: black;
+      color: #f2f2f3;
     }
   }
   
@@ -39,7 +43,7 @@ html {
       color: transparent;
     }
     50% {
-      color: black;
+      color: #f2f2f3;
     }
   }
   
@@ -48,7 +52,7 @@ html {
       color: transparent;
     }
     50% {
-      color: black;
+      color: #f2f2f3;
     }
   }
   
@@ -57,7 +61,7 @@ html {
       color: transparent;
     }
     50% {
-      color: black;
+      color: #f2f2f3;
     }
   }
   
@@ -66,6 +70,6 @@ html {
       color: transparent;
     }
     50% {
-      color: black;
+      color: #f2f2f3;
     }
   }
