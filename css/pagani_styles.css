@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  margin-bottom: 1em !important;
+}
+
 .has-hero-image {
     background: url('../assets/images/heroimage2560.png')center center; background-size:cover; 
 }
