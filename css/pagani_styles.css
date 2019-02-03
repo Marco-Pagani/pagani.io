@@ -14,6 +14,10 @@ p {
   background: url('../assets/prism.png');
 }
 
+.is-flex{
+  display:flex
+}
+
 .navbar-item {
   max-height: 4rem;
 }
