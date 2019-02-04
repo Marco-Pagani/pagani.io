@@ -6,11 +6,13 @@
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik:700');
 
 //Set your own initial variables
 $acqua: #25736B;
 $acqua-light: #53BFB4;
-$acqua-complement: #BF4f27;
+$acqua-complement: rgb(221, 68, 13);
 $acqua-complement-light: rgb(230, 120, 80);
 $white: #f2f2f3;
 
@@ -18,7 +20,7 @@ $beige-lighter: #EFF0EB;
 
 $grey-darker: hsl(0, 0%, 21%);
 
-$family-sans-serif: "Montserrat", "Roboto", sans-serif;
+$family-sans-serif: "Karla", "Roboto", sans-serif;
 $family-sedondary: "Roboto", sans-serif;
 //$size-1: 5rem;
 
@@ -34,17 +36,33 @@ $navbar-height: 3.5rem;
 $navbar-item-img-max-height: 60px;
 $navbar-background-color: transparent;
 
-$body-background-color: $beige-lighter;
+$body-background-color: #FFFFFF;
 
 $tabs-link-color: white;
 $tabs-link-active-color: white;
 $tabs-boxed-link-active-background-color: $body-background-color;
 $tabs-boxed-link-hover-background-color: $body-background-color;
 
+$card-shadow: 0 0 0 0;
+
 //Import the rest of Bulma
 
 //TODO: import only the components needed for the final site
-@import "../node_modules/bulma/bulma";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
+@import "../node_modules/bulma/sass/components/message.sass";
+@import "../node_modules/bulma/sass/components/tabs.sass";
+@import "../node_modules/bulma/sass/elements/box.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/content.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/elements/tag.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
 
 @import "../css/pagani_styles.css";
 
