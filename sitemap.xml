@@ -9,18 +9,23 @@
 
 <url>
   <loc>https://www.pagani.io/</loc>
-  <lastmod>2019-02-04T01:42:34+00:00</lastmod>
+  <lastmod>2019-02-23T21:03:08+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.pagani.io/it.html</loc>
-  <lastmod>2019-02-04T01:42:34+00:00</lastmod>
+  <lastmod>2019-02-23T21:03:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.pagani.io/assets/resume/resume_web.pdf</loc>
-  <lastmod>2019-02-04T01:42:34+00:00</lastmod>
+  <lastmod>2019-02-23T21:03:08+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.pagani.io/index.html</loc>
+  <lastmod>2019-02-23T21:03:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
