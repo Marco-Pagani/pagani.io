@@ -1,0 +1,9 @@
+{
+  "name": "pagani.io",
+  "theme_color": "#f2f2f3",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "Scope": "/",
+  "start_url": "/",
+  "splash_pages": null
+}
