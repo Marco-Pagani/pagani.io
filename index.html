@@ -6,7 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124487973-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-124487973-1');
   </script>
@@ -40,10 +40,10 @@
 </head>
 
 <body>
-  <nav class="navbar is-fixed-top " id="coloredNav" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-spaced is-fixed-top " id="coloredNav" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item logo" href="#home">
-        <img src="assets\logo\transparent.png">
+      <a class="navbar-item" href="#home">
+        <img height="100" src="assets\logo\transparent.png">
       </a>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="myNavbar">
@@ -59,18 +59,18 @@
 
       <div class="navbar-end">
 
-        <a class="navbar-item" href=#intro>
+        <a class="navbar-item has-text-weight-semibold has-text-dark" href=#intro>
           Skills
         </a>
-        <a class="navbar-item" href=#work>
+        <a class="navbar-item has-text-weight-semibold has-text-dark" href=#work>
           Projects
         </a>
-        <a class="navbar-item" href=#about>
+        <a class="navbar-item has-text-weight-semibold has-text-dark" href=#about>
           About
         </a>
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-info is-outlined" href="mailto:marco.pagani@ufl.edu">
+            <a class="button is-warning" href="mailto:marco.pagani@ufl.edu">
               <strong>Contact Me!</strong>
             </a>
 
@@ -84,9 +84,10 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-size-1 has-text-white">
-          Hi, I'm <span class="has-text-primary">Marco Pagani</span>, I'm a designer and a developer.<span class="blinking-cursor">|</span>
+          Hi, I'm <span class="has-text-primary">Marco Pagani</span>. I'm a designer and a developer.<span
+            class="blinking-cursor">|</span>
         </h1>
-        <a href=#intro class="button is-primary is-rounded is-medium">Check me out</a>
+        <a href=#intro class="button is-warning is-medium">Check me out</a>
       </div>
     </div>
     <div class="hero-foot">
@@ -102,18 +103,75 @@
   </section>
 
 
-  <section class="section is-medium is-narrow" id="intro">
+
+  <section class="section  is-narrow " id="summary">
     <div class="container is-narrow">
-      <h3 class="title is-size-1 is-spaced ">
+      <h3 class="title is-spaced ">
         Quick Facts:
       </h3>
-      <p class="is-size-5">
-        I have a passion for the design of technology, applying a creative eye to development, and a technical
-        approach to design. My goal is to combine these approaches in my art and programming.
-      </p>
+      <div class="columns">
+        <div class="column">
+          <div class="columns is-mobile">
+            <div class="column">
+              <h3 class="title has-text-info is-pulled-right">
+                <i class="fas fa-code"></i>
+              </h3>
+            </div>
+            <div class="column is-10">
+              <article class="message is-info">
+                <div class="message-body">
+                  <h5 class="title is-size-5 has-text-info">
+                    I'm a Developer
+                  </h5>
+                  My passion is making software that people want to use by applying my creative eye and computing
+                  skills.
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns is-mobile">
+            <div class="column">
+              <h3 class="title has-text-info is-pulled-right">
+                <i class="fas fa-pen-nib"></i>
+              </h3>
+            </div>
+            <div class="column is-10">
+              <article class="message is-info">
+                <div class="message-body">
+                  <h5 class="title is-size-5 has-text-info">
+                    I'm a Designer
+                  </h5>
+                  I make creative and technical products for people, both 2D and 3D.
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns is-mobile">
+            <div class="column">
+              <h3 class="title has-text-info is-pulled-right">
+                <i class="fas fa-file-signature"></i>
+              </h3>
+            </div>
+            <div class="column is-10">
+              <article class="message is-info">
+                <div class="message-body">
+                  <h5 class="title is-size-5 has-text-info">
+                    I'm Available
+                  </h5>
+                  If you’re looking for a soon-to-be graduate who’s more than just a programmer, contact me!
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-
   <!--
   <section class="section " id="skills">
 
@@ -354,18 +412,13 @@
             </h3>
             <p>
               <br>
-              I'm a Miami native who's been playing with computers for 20 years. When I'm not working on design or
-              programming, I'm probably editing photos, playing video games with my friends, or obsessing over
-              expensive
-              fountain pens. My hope is that this website serves as an example of my programming and design skills
-              and
-              directs you to some of the work I'm most proud of.<br><br>
-              If you want to get in touch, ask a question, or <i>hire me</i>, send me an email, or message me on any
-              of
-              the sites you find me. I'm always happy to talk!
+              I'm a Miami native who's been playing with computers for 20 years. I love art and design, and I try to
+              inject some of that love into everything I do, especially programming. This of this site as your one stop
+              shop for understanding my design and programming skills all in one place.<br><br>
+              Wanna get in touch, ask a question, or maybe even hire me? Send me an email! I'm always happy to talk.
               <br>
             </p>
-            <a class="button is-primary is-medium is-outlined" href="assets/resume/resume_web.pdf">
+            <a class="button is-warning is-medium" href="assets/resume/resume_web.pdf">
               <span class="icon">
                 <i class="far fa-file-alt"></i>
               </span>
@@ -379,27 +432,27 @@
     <div class="container has-text-centered has-text-grey-lighter ">
 
       <div class="buttons is-centered">
-        <a class="button is-primary is-rounded is-medium" href="mailto:marco.pagani@ufl.edu">
+        <a class="button is-warning is-rounded is-medium" href="mailto:marco.pagani@ufl.edu">
           <span class="icon">
             <i class="far fa-envelope"></i>
           </span>
         </a>
-        <a class="button is-primary is-rounded is-medium" href="https://www.linkedin.com/in/marco-pagani/">
+        <a class="button is-warning is-rounded is-medium" href="https://www.linkedin.com/in/marco-pagani/">
           <span class="icon">
             <i class="fab fa-linkedin"></i>
           </span>
         </a>
-        <a class="button is-primary is-rounded is-medium" href="https://github.com/Marco-Pagani">
+        <a class="button is-warning is-rounded is-medium" href="https://github.com/Marco-Pagani">
           <span class="icon">
             <i class="fab fa-github"></i>
           </span>
         </a>
-        <a class="button is-primary is-rounded is-medium" href="https://www.instagram.com/paganorama/?hl=en">
+        <a class="button is-warning is-rounded is-medium" href="https://www.instagram.com/paganorama/?hl=en">
           <span class="icon">
             <i class="fab fa-instagram"></i>
           </span>
         </a>
-        <a class="button is-primary is-rounded is-medium" href="https://500px.com/marco-pagani">
+        <a class="button is-warning is-rounded is-medium" href="https://500px.com/marco-pagani">
           <span class="icon">
             <i class="fab fa-500px"></i>
           </span>
