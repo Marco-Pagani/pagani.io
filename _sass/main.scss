@@ -10,38 +10,31 @@
 //Set your own initial variables
 $acqua: #25736B;
 $acqua-light: #53BFB4;
-$acqua-complement:#fcc333;
+$acqua-complement: rgb(221, 68, 13);
 $acqua-complement-light: rgb(230, 120, 80);
 $white: #f2f2f3;
 
-$yellow: #fcc335;
-$blue: #2e608e;
-
-
 $beige-lighter: #EFF0EB;
 
-$grey-darker: #363636;
+$grey-darker: hsl(0, 0%, 21%);
 
 $family-sans-serif: "Karla", "Roboto", sans-serif;
 $family-sedondary: "Roboto", sans-serif;
 //$size-1: 5rem;
 
 //Set the derived variables
-$primary: $yellow;
+$primary: $acqua-complement;
 $primary-invert: $white;
-$warning: $yellow;
-$info: $blue;
+$info: $acqua-light;
 $dark: $grey-darker;
 
 
 
-//$navbar-height: 7rem;
-$navbar-item-img-max-height: 90px;
-$navbar-padding-vertical: 1rem;
-//$navbar-fixed-z: 30;
+$navbar-height: 3.5rem;
+$navbar-item-img-max-height: 60px;
 $navbar-background-color: transparent;
 
-$body-background-color: #f7f7f7;
+$body-background-color: #FFFFFF;
 
 $tabs-link-color: white;
 $tabs-link-active-color: white;
