@@ -1548,7 +1548,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #4a4a4a;
+  color: white;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -1612,7 +1612,7 @@ a.navbar-item,
   flex-grow: 0;
   flex-shrink: 0; }
   .navbar-item img {
-    max-height: 90px; }
+    max-height: 100px; }
   .navbar-item.has-dropdown {
     padding: 0; }
   .navbar-item.is-expanded {

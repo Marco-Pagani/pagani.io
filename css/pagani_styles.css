@@ -18,9 +18,7 @@ p {
   display:flex
 }
 
-.navbar-item {
-  max-height: 4rem;
-}
+
 
 .title {
   font-family: "Rubik", sans-serif;

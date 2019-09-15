@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
+  
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
 
@@ -17,14 +17,24 @@ document.addEventListener('DOMContentLoaded', () => {
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
+        var nav = document.getElementById('coloredNav');
 
+
+        if (el.classList.contains('is-active')) {
+          nav.classList.add("is-white");
+          nav.classList.remove("is-transparent");
+        } else {
+          nav.classList.remove("is-white");
+          nav.classList.add("is-transparent");
+        }
       });
     });
   }
 
 });
 
-window.onscroll = function() {
+/*
+window.onscroll = function () {
   var nav = document.getElementById('coloredNav');
   if ( window.pageYOffset > 50 ) {
     nav.classList.add("is-white");
@@ -35,3 +45,4 @@ window.onscroll = function() {
 
   }
 }
+*/
