@@ -7,7 +7,7 @@ p {
 }
 
 .has-hero-image {
-    background: url('../assets/images/hero_2560_compressed.jpg')center center; background-size:cover; 
+    background: url('../assets/images/hero_2560_compressed_long.jpg')center center; background-size:cover; 
 }
 
 .has-pattern {
@@ -18,7 +18,13 @@ p {
   display:flex
 }
 
+.card {
+  height: 100%;
+}
 
+.footer-item {
+  margin-top: auto;
+}
 
 .title {
   font-family: "Rubik", sans-serif;
