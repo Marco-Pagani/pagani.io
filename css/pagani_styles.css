@@ -7,11 +7,11 @@ p {
 }
 
 .has-hero-image {
-    background: url('../assets/images/hero_2560_compressed_long.jpg')center center; background-size:cover; 
+    background: #6095cb url('../assets/images/hero_2560_compressed_long.jpg')center center; background-size:cover; 
 }
 
 .has-pattern {
-  background: url('../assets/prism.png');
+  background:  #363636 url('../assets/prism.png');
 }
 
 .is-flex{
